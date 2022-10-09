@@ -1,0 +1,219 @@
+*{
+  margin:5;
+  padding: 5; 
+  
+}
+body{
+  font-family: 'popins',sans-self;
+}
+.navbar{
+  display: flex;
+  align-items: down-center;
+  padding : <length>15px;
+  background-image:linear-gradient;
+}
+nav{
+  flex: 2;
+  text-align: : left;
+  
+}
+nav ul{
+  display: inline-block;
+  list-style-type: right;
+  list-style-position: 1;
+}
+nav ul li{
+  display: inline-block;
+  
+  margin-block-end: 10px;
+  margin-block-start: 10px;
+}
+.heading{
+  display: inline-block;
+  flex-basis: left;
+}
+a {
+  text-decoration: text-decoration-style;
+  color: Red;
+}
+.variable{
+  max-width: 1000px;
+  margin : auto;
+  padding-left: : l5px;
+  padding-right: 15px
+}
+.variable{
+  max-width: 3000px
+  margin: auto; 
+  padding-left: :10px;
+  padding-right: 10px
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.colimn-2{
+  flex-basis: 40%;
+  min-width: 100px;
+  text-align: left;
+  
+}
+.column-2 img{
+  max-width: 100%;
+  padding: 40px 0;
+  
+}
+.column-2 h1{
+  font-size: 50px;
+  font-style: italic;
+  line-height: 60px;
+  text-decoration: text-decoration-line;
+  margin: 15px 0;
+}
+.btn{
+  display: inline-block;
+  background:silver;
+  color: black;
+  padding: 6px 20px;
+  margin: 20px;
+  border-radius: 20px;
+  transition: background o.6s;
+}
+.btn:hover{
+  background: red;
+}
+.header{
+  background: radial-gradient(white,pink);
+}
+.header row{
+  margin-top: 70px;
+}
+.categories{
+  margin: 60px 0;
+}
+.column-4{
+  flex-basis: :8%;
+  min-width: 100px;
+  margin-bottom: 8px;
+  transition: transform 0.5s;
+}
+.column-4 img{
+  width : 100%;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 60px;
+  position : relative;
+  color : maroon;
+}
+.small-variable{
+  max-width: 700;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.column-5{
+  flex-basis: 15px;
+  padding: 5px;
+  min-width: 100px;
+  margin-top: 40px;
+  transition: transform 0.5s;
+}
+.column-5 img{
+  width : 100%;
+}
+
+.Title{
+  text-align: center;
+  margin: 0 auto 60px;
+  position : relative;
+  line-height: 40px;
+  color : maroon;
+}
+.column-5:hover{
+  transform: translateY(-5px);
+}
+.offer{
+  background: radial-gradient(white,pink);
+  margin-top: 60px;
+  padding: 15px 0;
+.column-2 .offer img{
+  padding: 40px;
+}  
+small{
+  color : goldenrod;
+}  
+}
+.FEEDBACKS{
+  padding-top: 50px;
+}
+.FEEDBACK form{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+  
+}
+.Footer{
+  background: black;
+  color : pink;
+  font-size: 10px;
+  paddind : 40px 0 10px;
+}
+.Footer p{
+  color : pink;
+}
+.Footer h13{
+  colour : maroon;
+  margin-bottom: 10px;
+}
+.footer-col-1,  .footer-col-2, .footer-col-3 .footer-col-4{
+  min-width: 150px;
+  margin-bottom: 15px;
+}
+.footer-col-1{
+  flex-basis: 20%;
+}
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+  
+}
+.footer-col-2 img{
+  width : 140px;
+}
+footer-col-3 .footer-col-4{
+  flex-basis: 10%;
+  text-align: center;
+  
+}
+.li{
+  list-style-type: none;
+}
+.App-Logo{
+  margin-top: 10px;
+}
+.App-Logo img{
+  width :100px;
+}
+.Testmonial{
+  paddingz-top: 100px;
+}
+.Tesmonial .column-2{
+  text-align: 100px;
+  padding: 30px 15px;
+  box-shadow: 0 0 10px 0px rgba(0,0,0,0,1);
+  cursor : pointer;
+  transition: transform 0.5s;
+}
+.Testmonial .column-2 img{
+  width : 40px
+  margin-top: 10px;
+  border-radius: 40%;
+  
+}
+.Testmonial .column-2:hover{
+  transform: translateY(-10px);
+  
+}
